@@ -1,0 +1,17 @@
+1) Import this project in STS or intelliJ as Maven project
+
+2) Build the project (Assuming Java , maven setup on system) 
+3) Right click to run (Assuming Java , maven setup on system) 
+
+4) Once you see application started on port 8086 , see a snapshot of CRUD using postman 
+
+5) To access data -> go to browser -> localhost:8086/h2-ui -> You should see an in memory data base (Works only when application started)
+
+Packages
+
+Controller -> Has endpoints (GET,POST,PUT,DELETE)
+
+Repository -> Has implementation of CRUD in In-memory DB (Just for example)
+
+Model -> Has the model defined
+
